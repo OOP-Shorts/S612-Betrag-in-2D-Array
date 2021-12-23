@@ -7,13 +7,13 @@ public class Amount2DArray {
         Enthält das Array also negative Werte sollen diese in den gleich weit von 0 entfernten positiven
         Wert überführt werden.
      */
-    public static int[][] turnAllElementsOf2DArrayToAmound(int[][] values) {
+    public static int[][] turnAllElementsOf2DArrayToAmount(int[][] values) {
         return null;
     }
 
     public static void main(String[] args) {
         int[][] toConvert = {{-1, 1, -1}, {2, -2, 2}, {-3, -3, 3}};
-        int[][] converted = turnAllElementsOf2DArrayToAmound(toConvert);
+        int[][] converted = turnAllElementsOf2DArrayToAmount(toConvert);
 
         int[][] test = {{1, 1, 1}, {2, 2, 2}, {3, 3, 3}};
 
