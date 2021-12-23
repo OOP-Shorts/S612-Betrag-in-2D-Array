@@ -17,7 +17,7 @@ public class Amount2DArray {
 
         int[][] test = {{1, 1, 1}, {2, 2, 2}, {3, 3, 3}};
 
-        if(Arrays.equals(converted, test)) {
+        if(Arrays.deepEquals(converted, test)) {
             System.out.println("Correct");
         } else {
             System.out.println("Not all numbers turned to Amount.");
